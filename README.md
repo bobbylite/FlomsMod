@@ -19,7 +19,35 @@ This modpack is for Minecraft 1.21.5 with fabric loader 0.16.14. More compatabil
 
 ---
 
-## Setup Instructions
+## Setup for Usage Instructions
+Prerequisites are that you must have the following instaslled:
+- fabric loader 0.16.14
+- minecraft version 1.21.5
+
+---
+
+1. **Download the Fabric API JAR**
+   Navigate to the `setup` folder in this repository and download the `fabric-api` JAR file.
+
+2. **Download the Floms Mod JAR**
+   Go to the `build/libs` directory and download the `flomsmod` JAR file.
+
+3. **Locate Your Minecraft Mods Folder**
+   Find your `.minecraft/mods` folder.
+
+   * On Windows: `C:\Users\<YourName>\AppData\Roaming\.minecraft\mods`
+   * On macOS: `~/Library/Application Support/minecraft/mods`
+   * On Linux: `~/.minecraft/mods`
+
+4. **Move the Files**
+   Place both the `fabric-api` JAR and the `flomsmod` JAR into the `mods` folder.
+
+5. **Launch Minecraft with Fabric**
+   Make sure you have the Fabric loader installed and selected in your Minecraft launcher. Then start the game — Floms Mod should now be active.
+
+---
+
+## Development Setup Instructions
 
 All the necessary files to deploy the modpack are located in the `setup` folder. Follow these steps to get the modpack running on your server:
 
