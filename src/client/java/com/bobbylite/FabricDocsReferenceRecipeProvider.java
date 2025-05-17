@@ -23,8 +23,8 @@ public class FabricDocsReferenceRecipeProvider extends FabricRecipeProvider {
 			@Override
 			public void generate() {
 			    createShapeless(RecipeCategory.BUILDING_BLOCKS, ModItems.DILDO_OF_DESTINY, 1) 
-					.input(Items.NETHERITE_PICKAXE)
-					.criterion(hasItem(Items.NETHERITE_PICKAXE), conditionsFromItem(Items.NETHERITE_PICKAXE))
+					.input(Items.DIRT)
+					.criterion(hasItem(Items.DIRT), conditionsFromItem(Items.DIRT))
 					.offerTo(exporter);
 			}
 		};

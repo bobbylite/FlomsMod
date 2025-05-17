@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_netherite_pickaxe": {
+    "has_dirt": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:netherite_pickaxe"
+            "items": "minecraft:dirt"
           }
         ]
       },
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_netherite_pickaxe"
+      "has_dirt"
     ]
   ],
   "rewards": {

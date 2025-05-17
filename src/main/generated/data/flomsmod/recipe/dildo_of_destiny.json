@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "building",
   "ingredients": [
-    "minecraft:netherite_pickaxe"
+    "minecraft:dirt"
   ],
   "result": {
     "count": 1,
